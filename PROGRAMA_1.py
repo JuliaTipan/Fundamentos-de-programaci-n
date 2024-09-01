@@ -23,3 +23,4 @@ mes_a_buscar = "Junio"
 
 # Llamar a la función de búsqueda y almacenar el resultado en la variable 'posicion'
 posicion = buscar_mes(matriz, mes_a_buscar)
+
