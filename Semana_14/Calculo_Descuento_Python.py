@@ -1,23 +1,18 @@
-#definir la función para calcular el descuento
-def calcular_descuento (monto_total_compra, descuento = 10):
-    #calcular el descuento en base al porcentaje
-    monto_descuento = monto_total_compra * (descuento / 100)
-    #retornar el monto de descuento
-    return monto_descuento
+# Función para calcular el descuento
+def calcular_descuento(monto_total, porcentaje_descuento=10):
+    # Calcular el monto del descuento
+    descuento = monto_total * (porcentaje_descuento / 100)
+    return descuento
 
-#lista de productos
-productos = ["pasta dental","cepillo de dientes", "shampoo","jabon","acondicionador"]
-#lista de precios correspondientes
-precios = [1.55, 0.8, 3.75, 2.45, 3.5]
-#calcular el monto total de la compra sumando los precios
-monto_total_compra = sum(precios)
-#mostrar el monto total
-print (f"el monto total de la compra es: {monto_total_compra}")
-#calcular el descuento con el valor predeterminado del 10%
-descuento_calculado = calcular_descuento (monto_total_compra)
-#mostrar el total del descuento
-print (f"el monto del descuento es de el (10%): {descuento_calculado}")
-#calcular el monto total con el descuento aplicado
-monto_final = monto_total_compra - descuento_calculado
-#mostrar el monto final
-print (f"el monto final despues de aplicar el descuento es: {monto_final}")
+# Programa principal
+# Primer monto total de compra
+monto_total1 = 50
+# Llamada con valor predeterminado del 10%
+descuento1 = calcular_descuento(monto_total1)
+print(f"Compra: ${monto_total1}, Descuento: ${descuento1}, Monto final: ${monto_total1 - descuento1}")
+
+# Segundo monto total de compra
+monto_total2 = 65
+# Llamada con un descuento del 12%
+descuento2 = calcular_descuento(monto_total2,porcentaje_descuento=12)
+print(f"Compra: ${monto_total2}, Descuento: ${descuento2}, Monto final: ${monto_total2 - descuento2}")

@@ -83,3 +83,4 @@ for i, promedios in enumerate(promedios_semanales):
     print(f"Ciudad {i + 1}:")
     for j, promedio in enumerate(promedios):
         print(f"  Semana {j + 1}: {promedio:.2f}°C")
+
