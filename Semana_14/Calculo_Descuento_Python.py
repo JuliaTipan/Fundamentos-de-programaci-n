@@ -6,7 +6,7 @@ def calcular_descuento(monto_total, porcentaje_descuento=10):
 
 # Programa principal
 # Primer monto total de compra
-monto_total1 = 50
+monto_total1 = 100
 # Llamada con valor predeterminado del 10%
 descuento1 = calcular_descuento(monto_total1)
 print(f"Compra: ${monto_total1}, Descuento: ${descuento1}, Monto final: ${monto_total1 - descuento1}")
