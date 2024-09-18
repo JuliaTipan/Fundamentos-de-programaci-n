@@ -8,7 +8,7 @@ def calcular_descuento (monto_total_compra, descuento = 10):
 #lista de productos
 productos = ["pasta dental","cepillo de dientes", "shampoo","jabon","acondicionador"]
 #lista de precios correspondientes
-precios = [1.55, 0.8, 3.75, 2.45, 4]
+precios = [1.55, 0.8, 3.75, 2.45, 3.5]
 #calcular el monto total de la compra sumando los precios
 monto_total_compra = sum(precios)
 #mostrar el monto total
