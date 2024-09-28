@@ -1,5 +1,5 @@
 #Crear diccionario con información personal
-informacion_personal = {"nombre":"Jayden Chiluisa","edad":28,"ciudad":"Latacunga","profesion":"ingeniero"}
+informacion_personal = {"nombre":"Jayden Landa","edad":28,"ciudad":"Latacunga","profesion":"ingeniero"}
 
 # Acceder al valor de la clave "ciudad" y modificarlo
 print (informacion_personal["ciudad"])
